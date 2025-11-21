@@ -1,10 +1,22 @@
-import mongoose, { mongo } from "mongoose"
+import mongoose from "mongoose";
 
 const messageSchema = new mongoose.Schema({
-    channelId : {type: mongoose.Schema.Types.ObjectId, ref:"Channel"},
-    userId : {type:mongoose.Schema.Types.ObjectId, ref : "User"},
-    text: String,
-    createdAt: { type: Date, default : Date.now}
+  channelId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Channel",
+    required: true,
+  },
+  userId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "User",
+    required: true,
+  },
+  text: {
+    type: String,
+    required: true,
+  }
+}, { 
+  timestamps: true 
 });
-    
-export default mongoose.model("Message", messageSchema)
+
+export default mongoose.model("Message", messageSchema);
