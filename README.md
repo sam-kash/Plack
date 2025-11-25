@@ -1,6 +1,6 @@
 #  Plack - Real-Time Chat Application
 
-A lightweight team communication platform inspired by **Slack**, built with **Node.js, Express, MongoDB, JWT Authentication, and Socket.io** for real-time messaging.  
+A lightweight team communication platform inspired by **Slack**, built with **Node.js, typescript, Express, MongoDB, JWT Authentication, and Socket.io** for real-time messaging.  
 Users can authenticate, join channels, send messages, and chat with others instantly.
 
 ---
