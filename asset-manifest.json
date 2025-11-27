@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/Plack/static/js/main.e5a9289f.js",
+    "static/js/453.da9de58b.chunk.js": "/Plack/static/js/453.da9de58b.chunk.js",
+    "index.html": "/Plack/index.html",
+    "main.e5a9289f.js.map": "/Plack/static/js/main.e5a9289f.js.map",
+    "453.da9de58b.chunk.js.map": "/Plack/static/js/453.da9de58b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.e5a9289f.js"
+  ]
+}
